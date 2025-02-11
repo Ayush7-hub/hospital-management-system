@@ -77,6 +77,7 @@ FOREIGN KEY (doctor) REFERENCES Doctor (email) ON DELETE CASCADE,
 PRIMARY KEY (sched, doctor)
 );
 
+
 CREATE TABLE DoctorViewsHistory(
 history int NOT NULL,
 doctor varchar(50) NOT NULL,
